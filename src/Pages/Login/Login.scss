@@ -1,0 +1,69 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../../../Img/loginPageBackgroundImg.jpeg");
+  opacity: 80%;
+  height: calc(100vh - 50px);
+  background-size: cover;
+
+  .container {
+    height: fit-content;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 8px;
+
+    .loginTitle {
+      font-size: 20px;
+      font-weight: 600;
+      width: 100%;
+      padding: 5px;
+      text-align: center;
+      font-size: 50px;
+    }
+
+    .loginForm {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      label {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+      }
+      input {
+        margin-bottom: 20px;
+        margin-top: 5px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+      }
+
+      .loginButton {
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: teal;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+
+    .loginToRegister {
+      color: white;
+
+      b{
+        cursor: pointer;
+      }
+    }
+  }
+}

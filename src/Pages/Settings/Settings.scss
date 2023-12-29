@@ -1,0 +1,88 @@
+.settings {
+  display: flex;
+
+  .settingsWrapper {
+    flex: 9;
+    font-family: "Josefin Sans", sans-serif;
+
+    .settingsTitle {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin: 30px 20px 20px 20px;
+      font-family: "Josefin Sans", sans-serif;
+
+      .settingsTitleUpdate {
+        font-size: 30px;
+        color: rgb(63, 61, 61);
+        font-weight: 600;
+      }
+
+      .settingsTitleDelete {
+        color: red;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+    .settingsForm {
+      display: flex;
+      flex-direction: column;
+      margin: 50px 10px;
+
+      .settingsFormTitle {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .settingsPP {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        img {
+          width: 70px;
+          height: 70px;
+          border-radius: 20px;
+          object-fit: cover;
+        }
+
+        .settingsPPIcon {
+          background-color: rgb(63, 61, 61);
+          border-radius: 50%;
+          color: white;
+          cursor: pointer;
+        }
+      }
+      label {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      input{
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 20px;
+      }
+
+      .settingsPassword{
+        margin-bottom: 20px;
+      }
+    }
+
+    .settingsSubmitButton{
+        width: 100px;
+        align-self: center;
+        color: white;
+        background-color: teal;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        font-weight: 400;
+        font-size: 15px;
+    }
+  }
+}
